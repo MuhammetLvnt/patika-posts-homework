@@ -19,6 +19,7 @@ function Posts() {
       fetchData();
     }
   }, [number]);
+  console.log(userData?.user, userData?.posts);
   return (
     <div>
       <div className="grid justify-items-center">
